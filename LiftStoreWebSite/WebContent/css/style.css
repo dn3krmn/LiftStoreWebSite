@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+#headermenu {
+    display: table;
+}
+#headermenu div {
+    display: table-cell;
+    padding-right: 20px;
+}
+a:link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:visited {
+    color: indigo;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ a:active {
+     color: tomato;
+ }
+ #headermenu a:link {
+     font-size: larger;
+ }
+ .pageheading {
+     color:red;
+ }
+ table {
+     border: 1px solid black;
+     border-collapse: collapse;
+ }
+ th, td {
+     padding: 8px;
+ }
+ th {
+     background: darkblue;
+     color: cornsilk;
+     font-size: larger;
+ }
+ table.form {
+     border: 0;
+     padding: 4px;
+ }
+ button{
+     padding: 6px;
+     border-radius: 5px;
+ }
+ button:hover {
+     background-color :white;
+     color: bisque;
+
+ }
+ button[type-submit] {
+     font-weight: bold;
+ }
+ .message {
+     font-style: italic;
+ }
+ input {
+     border: 1px solid;
+     border-radius: 4px;
+     border-color: bisque;
+     height: 20px;
+ }
+ .error {
+     color: red;
+     font-style: italic;
+     margin: 5px;
+ }
